@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="popup.css" />
+    <title>Your Auto Liker</title>
+  </head>
+
+  <body>
+    <div id="popup">
+      <div id="header">
+        <img id="logo" class="linkSite" src="../imgs/icon.png" />
+        <div id="name" class="linkSite">Your Auto Liker</div>
+        <div id="support" show="true">
+          <a class="supportBtn" href="#"><!--Support extension--></a>
+        </div>
+        <div id="subscribe" subscribed="false" show="false">
+          <a class="subscribeBtn start" href="#"><!--Subscribe--></a>
+        </div>
+      </div>
+
+      <div id="buttons">
+        <div id="refresh">
+          <img class="refreshBtn" src="../imgs/refresh.png" alt="Refresh" />
+        </div>
+
+        <div id="likeAll" class="btn" alreadySubscribed="false" show="false">
+          <div class="icon"><img src="../imgs/all.png" /></div>
+          <a class="likeAllBtn start" href="#">
+            <!--Always like this channel-->
+          </a>
+        </div>
+        
+        <div id="buttonsBlur">
+        <div id="alwaysLike" class="btn" alreadySubscribed="false" show="false">
+          <div class="icon"><img src="../imgs/like.png" /></div>
+          <a class="alwaysLikeBtn start" href="#">
+            <!--Always like this channel-->
+          </a>
+        </div>
+
+        <div id="alwaysDislike" class="btn" alreadySubscribed="false" show="false">
+          <div class="icon"><img src="../imgs/dislike.png" /></div>
+          <a class="alwaysDislikeBtn start" href="#">
+            <!--Alwyas dislike this channel-->
+          </a>
+        </div>
+
+        </div>
+
+
+        <p id="reactingInfo" show="false">
+          <!--Reacting in xx% of the video-->
+        </p>
+        <hr id="divideLine" show="false" />
+
+        <div id="configureExtensionBtn" class="btn">
+          <div class="icon"><img src="../imgs/conf.png" /></div>
+          <a class="configurationBtn" href="#"><!--Configure extension--></a>
+          <div class="icon loading"><img src="../imgs/load.gif" /></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
